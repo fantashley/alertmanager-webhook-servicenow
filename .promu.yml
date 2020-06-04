@@ -1,5 +1,5 @@
 repository:
-  path: github.com/FXinnovation/alertmanager-webhook-servicenow
+  path: github.com/FXinnovation/alertmanager-webhook-servicenow/cmd/alertmanager-webhook-servicenow
 build:
   binaries:
     - name: alertmanager-webhook-servicenow

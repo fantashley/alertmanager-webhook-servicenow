@@ -1,4 +1,5 @@
 alertmanager-webhook-servicenow
+!alertmanager-webhook-servicenow/
 config/servicenow.yml
 .build
 

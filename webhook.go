@@ -1,4 +1,4 @@
-package main
+package webhook
 
 import (
 	"bytes"
@@ -174,7 +174,7 @@ func homepage(w http.ResponseWriter, r *http.Request) {
 // - basic home page on /
 // - Alertmanager webhook entry point on /webhook
 // - health metrics on /metrics
-func main() {
+func Start() {
 	kingpin.Version(version.Print("alertmanager-webhook-servicenow"))
 	kingpin.HelpFlag.Short('h')
 	kingpin.Parse()
